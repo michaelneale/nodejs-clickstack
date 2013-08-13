@@ -1,5 +1,9 @@
 ## Node.js support on CloudBees.
 
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/michaelneale/nodejs-clickstack/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
+
+
+
 # ClickStacks and CloudBees
 This should work with standard node.js apps packaged up of the zip of the application directory (the dir with the package.json in it) - please do ask any questions on
 https://groups.google.com/forum/#!forum/cloudbees-dev as we flesh it out.
