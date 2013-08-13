@@ -1,6 +1,6 @@
 nodejs_ver =  0.10.5
 
-plugin_name = nodejs-plugin-$(nodejs_ver)
+plugin_name = nodejs-plugin-imagemagick-$(nodejs_ver)
 pkg_files = LICENCE setup node.tar.gz
 nodejs_src = http://nodejs.org/dist/v$(nodejs_ver)/node-v$(nodejs_ver)-linux-x64.tar.gz
 deps = nodejs
