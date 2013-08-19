@@ -1,7 +1,7 @@
 {
     "id": "nodejs-clickstart-imagemgk",
     "name": "Node.js web server",
-    "source": "github",
+    "source": "git://github.com/CloudBees-community/nodejs-clickstart.git",
     "description" : "Deploy a node.js application on CloudBees with continuous deployment (beta) and imagemagick",
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/nodejs_large.png",    
 
