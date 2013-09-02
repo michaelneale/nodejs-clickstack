@@ -17,8 +17,8 @@ cd $app_dir
 export PATH=$app_dir/node/bin:\$PATH
 export PORT=$app_port
 export MAGICK_HOME=$app_dir/ImageMGK
-export PATH=\$PATH:$app_dir/$MAGICK_HOME/bin
-LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+$LD_LIBRARY_PATH:}$MAGICK_HOME/lib"
+export PATH=\$PATH:$app_dir/\$MAGICK_HOME/bin
+LD_LIBRARY_PATH="\${LD_LIBRARY_PATH:+\$LD_LIBRARY_PATH:}\$MAGICK_HOME/lib"
 export LD_LIBRARY_PATH
 
 . $app_dir/.genapp/control/env_exports
